@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/cover"
+    tools:context=".gyno">
+
+
+    <Button
+        android:id="@+id/book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/tab_background"
+        android:text="Book Appointment"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn2"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:background="@mipmap/google"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.453" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:background="@mipmap/google"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="311dp"
+        android:layout_height="122dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RadioGroup
+            android:id="@+id/reg_gender_radiogroup"
+            android:layout_width="311dp"
+            android:layout_height="87dp"
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/dr1_radiobtn"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:background="@drawable/tab_background"
+                android:backgroundTint="#C32F474E"
+                android:text="Dr.Taslima Akhtar"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/dr2_radiobtn"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="@drawable/tab_background"
+                android:backgroundTint="#C32F474E"
+                android:text="Dr. Najmul Kader"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

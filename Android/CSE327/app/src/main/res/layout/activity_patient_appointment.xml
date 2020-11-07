@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/cover"
+    tools:context=".PatientAppointment">
+
+    <Button
+        android:id="@+id/psy"
+        android:layout_width="410dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/tab_background"
+        android:backgroundTint="#C32F474E"
+        android:text="PSYCHIATRIST"
+        android:textColor="#E2FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+    <Button
+        android:id="@+id/Gynocologist"
+        android:layout_width="410dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/tab_background"
+        android:backgroundTint="#C32F474E"
+        android:text="GYNOCOLOGIST"
+        android:textColor="#E2FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/CardioSpecialist"
+        android:layout_width="410dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/tab_background"
+        android:backgroundTint="#C32F474E"
+        android:text="CARDIO SPECIALIST"
+        android:textColor="#E2FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Gynocologist" />
+
+    <Button
+        android:id="@+id/eye"
+        android:layout_width="410dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/tab_background"
+        android:backgroundTint="#C32F474E"
+        android:text="EYE SPECIALIST"
+        android:textColor="#E2FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CardioSpecialist" />
+
+    <Button
+        android:id="@+id/onto"
+        android:layout_width="410dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/tab_background"
+        android:backgroundTint="#C32F474E"
+        android:text="ONTOCOLOGIST"
+        android:textColor="#E2FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eye" />
+
+    <Button
+        android:id="@+id/skin"
+        android:layout_width="410dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/tab_background"
+        android:backgroundTint="#C32F474E"
+        android:text="SKIN SPECIALIST"
+        android:textColor="#E2FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onto" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="410dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/tab_background"
+        android:backgroundTint="#C32F474E"
+        android:text="PHYSIOLOGIST"
+        android:textColor="#E2FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
